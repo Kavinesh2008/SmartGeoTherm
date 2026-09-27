@@ -35,7 +35,7 @@ public class BillController {
     {
         return ser.getData();
     }
-    @PutMapping ("/create/{id}")
+    @PutMapping ("/update/{id}")
     //http://localhost:8080/Bill/update
     public BillModel update(@PathVariable Long id,@RequestBody BillModel data)
     {
